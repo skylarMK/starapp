@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing:border-box;}
+body,html{
+	-webkit-text-size-adjust:none;
+  font-family:Verdana, 'Noto Sans TC','Microsoft JhengHei', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+img{ 
+  width: 100%;
+  display: block;
+}
+a{text-decoration: none;}
+h1,.visibleM{display: none;}
+.visible{ display: block; }
+.logo{
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 12%;
+  z-index: 1;
+}
+.visualArea{ 
+  position: relative;
+  width: 100%;
+  height: 60vw;
+}
+.visual01{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 85%;
+}
+.visualCon{
+  position: absolute;
+  left: 40%;
+  top: 57%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.qrCodeBox{
+  width: 35%;
+  margin-right: 3%;
+}
+.qrCodeBox a{ 
+  display: block;
+  margin: 5% auto;
+  filter: drop-shadow(0 0 5px #606060);
+}
+.visualWords{
+  font-size: 2.3em;
+  line-height: 1.4;
+  color: #182943;
+  text-align: left;
+  font-weight: 800;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.visual02{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 85%;
+}
+.section{ position: relative;}
+.section1{
+  width: 100%;
+  height: 55vw;
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+.flexbox div{ margin:0 1%;}
+.pattern01{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  z-index: -1;
+}
+.section01con{
+  width: 78%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.app{ width: 20vw;}
+.words01{ padding-top: 10%;}
+.words01-2{padding-top: 30%;}
+
+.section2{
+  width: 100%;
+  height: 50vw;
+  margin-top: -13%;
+}
+.pattern02{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: -1;
+}
+.section02con{
+  width: 65%;
+  margin: 2% 10% 0 auto;
+}
+.words02{ padding-top: 34%;}
+.words02-2{ width: 85%;}
+.section02con .app{ 
+  margin-left: 8%;
+}
+
+.section3{
+  width: 100%;
+  height: 60vw;
+  margin-top: 2%;
+}
+.pattern03{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.section03con{
+  width: 70%;
+  margin: 0 auto;
+}
+.words03{ padding-top: 15%;}
+.words03-2{ width: 75%;}
+.section03con .app{ 
+  margin-top: -20%;
+}
+
+.section4{
+  width: 100%;
+  height: 23vw;
+  margin-top: -11%;
+}
+.section04con{
+  width: 55vw;
+  margin: 0 auto;
+}
+.words04-2{ width: 70%;}
+.section04con .app{ 
+  margin-top: -22%;
+}
+
+.section5{
+  width: 100%;
+  height: 60vw;
+  margin-top: -5%;
+}
+.pattern04{
+  position: absolute;
+  width: 35%;
+  z-index: -1;
+  top: 20%;
+}
+.section05con{
+  width: 70%;
+  margin: 0 auto 0 10%;
+}
+.words05Box{
+  width: 60%;
+}
+.words05{ padding-top: 60%;}
+.words05-2{ width: 110%;}
+.section05con .app{ 
+  margin-top: 14%;
+  margin-right: 10%;
+}
+
+.section6{
+  width: 100%;
+  height: 50vw;
+  margin-top: -20%;
+}
+.pattern05{
+  position: absolute;
+  width: 15%;
+  z-index: -1;
+  top: 20%;
+  right: 0;
+}
+.section06con{
+  width: 60%;
+  margin: 0 15% 0 auto;
+}
+.words06Box{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.words06{ padding-top: 60%;}
+.words06-2{ width: 110%;}
+.section06con .app{ 
+  margin-top: 14%;
+  margin-left: 10%;
+}
+
+.pattern06{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+}
+.section7{
+  width: 100%;
+  height: 15vw;
+}
+#gotop {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  right: 12px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  color: #ed1e79;
+  font-size: 30px;
+  background-color: #ffff00;
+  border-radius: 50%;
+  line-height: 1.6;
+  filter: drop-shadow(0 0 6px #fc7e9c);
+}
+
+.pattern07{
+  position: absolute;
+  width: 40%;
+  left: 0;
+  bottom: 0;
+}
+.pattern08{
+  position: absolute;
+  width: 80%;
+  right: 0;
+  bottom: 0;
+}
+
+
+@media (max-width: 1500px) {
+  .section01con { width: 85%; }
+  .section05con .app,.section06con .app {
+    margin-top: 19%;
+    width: 16vw;
+  } 
+}
+
+
+@media (max-width: 1200px) {
+  .visualWords br{ display: none; }
+  .visualWords{ 
+    font-size: 2em;
+    white-space: break-spaces; 
+  }
+  .visualCon { 
+    top: 58%;
+    left: 42%; 
+  }
+  .section04con .app { width: 23vw; }
+  .section04con { width: 55%; }
+  .visualArea { height: 60vw; }
+  .qrCodeBox{ width: calc(100vw / 2); } 
+  
+}
+
+@media (max-width: 900px) {  
+  .logo{ 
+    width: 20%;
+    top: 3%;
+    right: 3%; 
+  }
+  .visualCon {
+    top: 65%;
+    display: block;
+    width: 60%;
+    left: 50%;
+  }
+  .visual01,.visual02{ width: 100%; }
+  .qrCodeBox{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .visualArea { height: 135vw; }
+  .section1 { 
+    height: 85vw; 
+    margin-top: 12%;
+  }
+  .section01con {
+    width: 60%;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .words01{ width: 52%; }
+  .app { width: 25vw; }
+  .words01-2{
+    margin: 0 4%;
+    padding-top: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+  .words02Box{ width: 50vw; }
+  .words02{ 
+    width: 44vw;
+    padding-top: 30%; 
+  }
+  .words02-2 { width: 80%; }
+  .section02con { 
+    width: 80%; 
+    margin: 2% 7% 0 auto;
+  }
+  .section02con .app { margin-left: 0%; }
+  .section3 { 
+    margin-top: -4%;
+    height: 95vw; 
+  }
+  .section03con { 
+    width: 55%;
+    display: block;
+  }
+  .pattern03{ padding-top: 19%; }
+  .section03con .app { margin: 16% auto 0 auto;}
+  .words03{ 
+    padding: 0;
+    position: absolute;
+    width: 55vw;
+    top: 48%;
+    right: 0;
+  }
+  .words03-2 {
+    width: 45%;
+    position: absolute;
+    left: 5%;
+  }
+  .section4 { height: 80vw; }
+  .section04con{
+    display: block;
+    padding-top: 35%;
+  }
+  .section04con .app {
+    margin: -65% auto 0 5%;
+    width: 28vw;
+  }
+  .words04Box{
+    z-index: 1;
+    position: absolute;
+    top: 66%;
+    width: 50%;
+  }
+  .section5 {
+    height: 115vw;
+    margin-top: 0%;    
+  }
+  .pattern04 { 
+    width: 65%;
+    top: 14%; 
+  }
+  .section05con .app { 
+    width: 28vw; 
+    margin-top: 21%;
+    margin-right: 16%;
+  }
+  .words05Box {
+    width: 65%;
+    position: absolute;
+    top: 60%;
+  }
+  .words05,.words06 { padding-top: 0%;}
+  .section6 { height: 95vw; }
+  .section06con .app{ width: 30vw; }
+  .words06Box{
+    position: absolute;
+    top: 70%;
+    width: 50%;
+  }
+  .visible{ display: none; }
+  .visibleM{ display: block; }
+  .visualWords{ 
+    width: calc(100vw / 2); 
+    margin: 0 auto;
+  }  
+  .pattern07 { bottom: -52%; }
+}
+
+@media (max-width: 480px) {
+  .visualWords { 
+    font-size: 1.6em; 
+    width: 90%;
+  }
+  .visualCon { 
+    top: 60%;
+    width: 80%; 
+  }
+  .section1 { height: 95vw; }
+  #gotop { bottom: 60px; }
+  .logo,.app { width: 30vw; }
+  .section01con { width: 85%; }
+  .words02-2 { width: 95%; }
+  .section2 { height: 92vw; }
+  .pattern02{ width: 70%; }
+  .words02 {
+    width: 65vw;
+    padding-top: 110%;
+  }
+  .pattern03 { padding-top: 30%; }
+  .words03 { top: 48%; }
+  .section3 { height: 115vw; }
+  .words04Box {
+    top: 55%;
+    width: 70%;
+  }
+  .section4 { height: 100vw; }
+  .section04con .app {
+    margin: -60% auto 0 5%;
+    width: 30vw;
+  }
+  .section05con .app { width: 30vw; }
+  .section05con { margin: 0 auto 0 14%; }
+  .section5 { height: 125vw; }
+  .section05con .app {
+    margin-top: 15%;
+    margin-right: 30%;
+  }
+  .words06Box { 
+    width: 65%; 
+    top: 62%;
+  }
+  .section6 { height: 110vw; }
+  .visualArea { height: 160vw; }
+  .section02con { width: 86%; }
+  .section04con { width: 65%; }
+  .words05Box { width: 80%; }
+}
